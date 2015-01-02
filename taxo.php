@@ -8,6 +8,7 @@ class KoreanTaco extends Entree
      */
     function init(&$db)
     {
+        // testing permissions jj
         // Assign the main entree
         $this->lunch =& get_taco();
         $this->db =& $db;
